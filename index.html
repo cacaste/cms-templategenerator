@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/grid-canvas.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,500italic,400italic,900,900italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="gridCanvas">
+		<h1>Hola este es el canvas-grid de Fratris</h1>
+	</div>
+	<div id="containerNamePosition"></div>
+	<div>
+	<button id="newPosition">Nueva Posición</button>
+	<button id="createPosition" class="display-none">Crear posición</button>
+	<button id="clearPosition" class="display-none">Deshacer</button>
+	<button id="createRow">Agregar fila</button>
+	<button id="addScreen">Agregar pantalla</button>
+	<button id="eraseRow">Borrar fila</button>
+	<button id="generateGrid">Generar grilla</button>
+	</div>
+	<div id="containerOption" class="display-none">
+		<div>Que desea hacer?</div>
+		 Nombre de la posición: <input type="text" id='namePosition' name="lname">
+		<button id="assignPosition">Crear posicion</button>
+		<!--<button id="assignComponent">Crear componente</button>-->
+	</div>
+	<!--<div id="grid-canvas-dos">
+		<h1>Hola este es el canvas-grid de Fratris</h1>
+	</div>-->
+	<script src="js/grid-canvas.js"></script>
+</body>
+</html>

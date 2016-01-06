@@ -1,0 +1,29 @@
+.row{
+	display: flex;
+}
+.square-grid{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #000;
+	cursor: pointer;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	height: 55px;
+	margin: 3px;
+	padding-top: 5px;
+	text-align: center;
+	width: 80px;
+}
+
+.display-none{
+	display: none;
+}
+.display-visible{
+	display: inline-block;
+}
+.yellow{
+	background: yellow;
+}
+.red{
+	background: red;
+}
